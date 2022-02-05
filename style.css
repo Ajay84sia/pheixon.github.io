@@ -1,0 +1,81 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('home.jpg')no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Righteous', cursive;
+}
+
+img {
+    width: 115px;
+    height: 100px;
+    margin: 25px;
+    border-radius: 50%;
+}
+
+.navbar {
+    display: flex;
+}
+
+ul {
+    /* border: 2px solid black; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    margin: 10px;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-size: 24px;
+    /* padding: 35px; */
+    margin: 35px;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255)
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+}
+#product {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding: 3px 150px;
+    justify-content: center;
+    text-align: center;
+}
+#product h1 {
+    padding: 20px;
+    color:cyan;
+    text-align: center;
+    font-size: 50px;
+    
+}
+        
+#product p {
+    /* color: cornflowerblue; */
+    text-align: center;
+    font-size: 1.7rem;
+    opacity: 0.8;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 2px solid black;
+    color: orangered;
+}

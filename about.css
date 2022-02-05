@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* background: url('logo2.png') center 30%; */
+    background: url('about.jpg') ;
+    background-size: cover;
+    font-family: 'Righteous', cursive;
+    background-repeat: no-repeat;
+}
+img {
+    width: 115px;
+    height: 100px;
+    margin: 25px;
+    border-radius: 50%;
+}
+.navbar {
+    display: flex;
+}
+ul {
+    /* border: 2px solid black; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.item {
+    margin: 10px;
+}
+li {
+    list-style: none;
+}
+a {
+    font-size: 24px;
+    /* padding: 35px; */
+    margin: 35px;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(24, 0, 160);
+}
+iframe {
+    margin-top: 200px;
+    margin-left: 60%
+}
